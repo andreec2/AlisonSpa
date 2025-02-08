@@ -12,7 +12,7 @@ import DepilacionPigmentación from "./page/DepilacionPigmentacion.tsx";
 import LaminadoCejas from "./page/LaminadoCejas.tsx";
 import Blanqueamiento from "./page/Blanueamiento.tsx";
 import MaquillajeProfesional from "./page/MaquillajeProfesional";
-import TipoPestañas from "./page/TipoPestañas";
+import TipoPestanas from "./page/TipoPestanas.tsx";
 import Peinados from "./page/Peinados";
 
 
@@ -34,7 +34,7 @@ export default function App() {
             <Route path="/services/laminado-cejas" element={<LaminadoCejas />} />
             <Route path="/services/blanqueamiento-oscuras" element={<Blanqueamiento />} />
             <Route path="/services/maquillaje-profesional" element={<MaquillajeProfesional />} />
-            <Route path="/services/pestañas-tipo" element={<TipoPestañas />} />
+            <Route path="/services/pestañas-tipo" element={<TipoPestanas />} />
             <Route path="/services/peinados" element={<Peinados />} />
             <Route path="/services/depilacion-laser" element={<DepilacionLaser />} />
         </Routes>

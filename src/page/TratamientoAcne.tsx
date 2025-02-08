@@ -4,43 +4,50 @@ import "../Styles/base.css";
 export default function TratamientoAcne() {
     return (
         <div className="container">
-            <h1 className="title">Depilación Láser</h1>
+            <h1 className="title">Tratamiento para el Acné</h1>
 
             <div className="content-box">
                 {/* Imagen */}
                 <div className="image-container">
-                    <img src="/images/DepilacionLaser.jpg" alt="Depilación Láser" className="image" />
+                    <img src="/images/tratamiento-acne.jpg" alt="Tratamiento para el Acné" className="image" />
                 </div>
 
-                {/* Descripción vacía */}
-                <p className="description"></p>
+                {/* Descripción */}
+                <p className="description">
+                    El tratamiento para el acné ayuda a reducir la inflamación, eliminar impurezas y mejorar la textura
+                    de la piel. Se utilizan técnicas avanzadas como peelings químicos, luz pulsada y limpieza profunda
+                    para controlar la producción de grasa y prevenir brotes futuros.
+                </p>
 
-                {/* Video informativo vacío */}
+                {/* Video informativo */}
                 <div className="video-container">
-                    <iframe width="560" height="315" src="" title="YouTube video player"></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/example" title="Tratamiento para el Acné"></iframe>
                 </div>
 
-                {/* Beneficios vacíos */}
+                {/* Beneficios */}
                 <h2 className="subtitle">Beneficios:</h2>
                 <ul className="list">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Reduce la inflamación y el enrojecimiento.</li>
+                    <li>Disminuye la producción excesiva de grasa.</li>
+                    <li>Previene la formación de cicatrices.</li>
+                    <li>Mejora la textura y luminosidad de la piel.</li>
                 </ul>
 
-                {/* Áreas de aplicación vacías */}
+                {/* Áreas de aplicación */}
                 <h2 className="subtitle">Áreas de Aplicación:</h2>
                 <ul className="list">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Rostro.</li>
+                    <li>Espalda.</li>
+                    <li>Cuello.</li>
+                    <li>Pecho.</li>
                 </ul>
 
-                {/* Duración y precio vacíos */}
+                {/* Duración y precio */}
                 <h2 className="subtitle">Duración y Precio:</h2>
-                <p className="description"></p>
+                <p className="description">
+                    La duración del tratamiento varía según el tipo de piel y la severidad del acné,
+                    pero suele requerir entre 4 y 8 sesiones. Los precios oscilan entre $50 y $200 por sesión.
+                </p>
             </div>
         </div>
     );
