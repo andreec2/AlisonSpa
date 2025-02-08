@@ -4,7 +4,16 @@ import Hero from './page/Hero';
 import Services from './page/Services';
 import Footer from './page/Footer';
 import Morpheus8 from './page/Morpheus8'; // Importa el componente
-import DepilacionLaser from "./page/DepilacionLaser"; 
+import DepilacionLaser from "./page/DepilacionLaser";
+import LimpiezaFacial from "@/page/LimpiezaFacial.tsx";
+import TratamientoAcne from "./page/TratamientoAcne.tsx";
+import DepilacionCera from "./page/DepilacionCera.tsx";
+import DepilacionPigmentación from "./page/DepilacionPigmentacion.tsx";
+import LaminadoCejas from "./page/LaminadoCejas.tsx";
+import Blanqueamiento from "./page/Blanueamiento.tsx";
+import MaquillajeProfesional from "./page/MaquillajeProfesional";
+import TipoPestañas from "./page/TipoPestañas";
+import Peinados from "./page/Peinados";
 
 
 export default function App() {
@@ -17,8 +26,17 @@ export default function App() {
             <Hero />
             <Services />
           </>} />
-          <Route path="/services/morpheus8" element={<Morpheus8 />} />
-          <Route path="/services/depilacion-laser" element={<DepilacionLaser />} />
+            <Route path="/services/morpheus8" element={<Morpheus8 />} />
+            <Route path="/services/limpieza-facial-profunda" element={<LimpiezaFacial />} />
+            <Route path="/services/tratamiento-para-acne" element={<TratamientoAcne />} />
+            <Route path="/services/depilacio-cera" element={<DepilacionCera />} />
+            <Route path="/services/pigmentación-de-cejas" element={<DepilacionPigmentación />} />
+            <Route path="/services/laminado-cejas" element={<LaminadoCejas />} />
+            <Route path="/services/blanqueamiento-oscuras" element={<Blanqueamiento />} />
+            <Route path="/services/maquillaje-profesional" element={<MaquillajeProfesional />} />
+            <Route path="/services/pestañas-tipo" element={<TipoPestañas />} />
+            <Route path="/services/peinados" element={<Peinados />} />
+            <Route path="/services/depilacion-laser" element={<DepilacionLaser />} />
         </Routes>
       </main>
       <Footer />

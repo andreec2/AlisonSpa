@@ -10,55 +10,55 @@ const services = [
 
   {
     title: "Limpieza Facial Profunda ",
-    description: "vacio",
+    description: "Elimina impurezas y revitaliza la piel.",
     link: "/services/limpieza-facial-profunda",
   },
 
   {
     title: "Tratamiento para el acne ",
-    description: "Vacio",
+    description: "Reduce brotes y mejora la textura de la piel.",
     link: "/services/tratamiento-para-acne",
   },
 
   {
     title: "Depilacion cera",
-    description: "Vacio",
+    description: "Remueve vello de forma efectiva y duradera.",
     link: "/services/depilacio-cera",
   },
 
   {
     title: "Depilacion y pigmentación de cejas",
-    description: "Vacio",
+    description: "Define y realza la forma de tus cejas.",
     link: "/services/pigmentación-de-cejas",  
   },
 
   {
     title: "Laminado de cejas",
-    description: "Vacio",
+    description: "Efecto de cejas peinadas y con mayor volumen.",
     link: "/services/laminado-cejas",
   },
 
   {
     title: "Blanqueamiento de zonas oscuras",
-    description: "Vacio",
+    description: "Unifica el tono de la piel en áreas específicas.",
     link: "/services/blanqueamiento-oscuras",
   },
 
   {
     title: "Maquillaje profesional",
-    description: "Vacio",
+    description: "Looks impecables para cualquier ocasión.",
     link: "/services/maquillaje-profesional",
   },
 
   {
     title: "Todo tipo de pestañas",
-    description: "Vacio",
+    description: "Extensiones, lifting y más para resaltar tu mirada.",
     link: "/services/pestañas-tipo",
   },
 
   {
     title: "Peinados",
-    description: "Vacio",
+    description: "Estilos únicos para eventos y el día a día.",
     link: "/services/peinados",
   },
   

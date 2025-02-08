@@ -1,8 +1,11 @@
 import React from "react";
-import "../Styles/DepilacionLaser.css";
-import LaserImage from "../images/DepilacionLaser.jpg";
+import "../Styles/base.css";
+//import LaserImage from "../images/DepilacionLaser.jpg";
 
 export default function DepilacionLaser() {
+
+  const LaserImage = import.meta.env.BASE_URL + "../images/DepilacionLaser.jpg";
+
   return (
     <div className="container">
       <h1 className="title">Depilación Láser - Piel Suave y Sin Vello</h1>
