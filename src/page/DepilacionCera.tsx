@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/base.css";
 
 export default function DepilacionCera() {
+    const DepilacionCeraI = import.meta.env.BASE_URL + "../images/DepilacionCera.jpg";
     return (
         <div className="container">
             <h1 className="title">Depilación con Cera</h1>
@@ -9,7 +10,7 @@ export default function DepilacionCera() {
             <div className="content-box">
                 {/* Imagen */}
                 <div className="image-container">
-                    <img src="/images/depilacion-cera.jpg" alt="Depilación con Cera" className="image" />
+                    <img src={DepilacionCeraI} alt="Depilación con Cera" className="image" />
                 </div>
 
                 {/* Descripción */}

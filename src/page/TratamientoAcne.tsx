@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/base.css";
 
 export default function TratamientoAcne() {
+    const TratamientoAcneI = import.meta.env.BASE_URL + "../images/TratamientoAcne.jpg";
     return (
         <div className="container">
             <h1 className="title">Tratamiento para el Acné</h1>
@@ -9,7 +10,7 @@ export default function TratamientoAcne() {
             <div className="content-box">
                 {/* Imagen */}
                 <div className="image-container">
-                    <img src="/images/tratamiento-acne.jpg" alt="Tratamiento para el Acné" className="image" />
+                    <img src={TratamientoAcneI} alt="Tratamiento para el Acné" className="image" />
                 </div>
 
                 {/* Descripción */}

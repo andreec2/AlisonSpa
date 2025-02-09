@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/base.css";
 
 export default function Peinados() {
+    const PeinadosI = import.meta.env.BASE_URL + "../images/Peinados.jpg";
     return (
         <div className="container">
             <h1 className="title">Peinados Profesionales</h1>
@@ -9,7 +10,7 @@ export default function Peinados() {
             <div className="content-box">
                 {/* Imagen */}
                 <div className="image-container">
-                    <img src="/images/peinados-profesionales.jpg" alt="Peinados Profesionales" className="image" />
+                    <img src={PeinadosI} alt="Peinados Profesionales" className="image" />
                 </div>
 
                 {/* Descripción */}

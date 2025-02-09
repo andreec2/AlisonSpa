@@ -2,6 +2,8 @@ import React from "react";
 import "../Styles/base.css";
 
 export default function DepilacionPigmentacion() {
+
+    const DepilacionPigmentacionI = import.meta.env.BASE_URL + "../images/PigmentacionCejas.jpg";
     return (
         <div className="container">
             <h1 className="title">Depilación Láser y Tratamiento de Pigmentación</h1>
@@ -9,7 +11,7 @@ export default function DepilacionPigmentacion() {
             <div className="content-box">
                 {/* Imagen */}
                 <div className="image-container">
-                    <img src="/images/depilacion-pigmentacion.jpg" alt="Depilación Láser y Tratamiento de Pigmentación" className="image" />
+                    <img src={DepilacionPigmentacionI} alt="Depilación Láser y Tratamiento de Pigmentación" className="image" />
                 </div>
 
                 {/* Descripción */}

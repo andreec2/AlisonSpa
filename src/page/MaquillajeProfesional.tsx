@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/base.css";
 
 export default function MaquillajeProfesional() {
+    const MaquillajeProfesionalI = import.meta.env.BASE_URL + "../images/MaquillajeProfesional.jpg";
     return (
         <div className="container">
             <h1 className="title">Maquillaje Profesional</h1>
@@ -9,7 +10,7 @@ export default function MaquillajeProfesional() {
             <div className="content-box">
                 {/* Imagen */}
                 <div className="image-container">
-                    <img src="/images/maquillaje-profesional.jpg" alt="Maquillaje Profesional" className="image" />
+                    <img src={MaquillajeProfesionalI} alt="Maquillaje Profesional" className="image" />
                 </div>
 
                 {/* Descripción */}

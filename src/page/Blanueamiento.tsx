@@ -2,6 +2,8 @@ import React from "react";
 import "../Styles/base.css";
 
 export default function Blanueamiento() {
+
+    const Blaqueamiento = import.meta.env.BASE_URL + "../images/BlaqueamientoZonas.jpg";
     return (
         <div className="container">
             <h1 className="title">Blanqueamiento de Zonas Oscuras</h1>
@@ -9,7 +11,7 @@ export default function Blanueamiento() {
             <div className="content-box">
                 {/* Imagen */}
                 <div className="image-container">
-                    <img src="/images/blanqueamiento-zonas-oscuras.jpg" alt="Blanqueamiento de Zonas Oscuras" className="image" />
+                    <img src={Blaqueamiento} alt="Blanqueamiento de Zonas Oscuras" className="image" />
                 </div>
 
                 {/* Descripción */}

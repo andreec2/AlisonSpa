@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import "../Styles/base.css";
 
 export default function LimpiezaFacial() {
+    const LimpiezaFacialI = import.meta.env.BASE_URL + "../images/LimpiezaFacial.png";
     return (
         <div className="container">
             <h1 className="title">Limpieza Facial Profunda</h1>
@@ -10,7 +11,7 @@ export default function LimpiezaFacial() {
                 {/* Imagen */}
                 <div className="image-container">
                     <img
-                        src="/placeholder.svg?height=400&width=600"
+                        src={LimpiezaFacialI}
                         alt="Limpieza Facial Profunda"
                         className="image"
                     />

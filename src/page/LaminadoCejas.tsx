@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/base.css";
 
 export default function LaminadoCejas() {
+    const LaminadoCejasI = import.meta.env.BASE_URL + "../images/" + "LaminadoCejas.jpg";
     return (
         <div className="container">
             <h1 className="title">Laminado de Cejas</h1>
@@ -9,7 +10,7 @@ export default function LaminadoCejas() {
             <div className="content-box">
                 {/* Imagen */}
                 <div className="image-container">
-                    <img src="/images/laminado-cejas.jpg" alt="Laminado de Cejas" className="image" />
+                    <img src={LaminadoCejasI} alt="Laminado de Cejas" className="image" />
                 </div>
 
                 {/* Descripción */}

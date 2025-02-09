@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/base.css";
 
 export default function TipoPestanas() {
+    const TipoPestanasI = import.meta.env.BASE_URL + "../images/TodoPestañas.jpg";
     return (
         <div className="container">
             <h1 className="title">Extensión y Lifting de Pestañas</h1>
@@ -9,7 +10,7 @@ export default function TipoPestanas() {
             <div className="content-box">
                 {/* Imagen */}
                 <div className="image-container">
-                    <img src="/images/tipo-pestanas.jpg" alt="Extensión y Lifting de Pestañas" className="image" />
+                    <img src={TipoPestanasI} alt="Extensión y Lifting de Pestañas" className="image" />
                 </div>
 
                 {/* Descripción */}
