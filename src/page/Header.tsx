@@ -1,21 +1,26 @@
-import { Link } from "react-router-dom"
+import { useEffect } from "react";
 
 export default function Header() {
+  useEffect(() => {
+    window.location.hash = "#services";
+  }, []);
+
   return (
-    <header className="bg-white shadow-sm">
-      <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold text-pink-600">
-          Alison SPA
-        </Link>
-        <div className="space-x-4">
-          <Link to="/#services" className="text-gray-600 hover:text-pink-600">
-            Servicios
-          </Link>
-          <Link to="/#contact" className="text-gray-600 hover:text-pink-600">
-            Contacto
-          </Link>
-        </div>
-      </nav>
-    </header>
-  )
+      <header className="bg-white shadow-sm">
+        <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
+          <a href="/" className="text-2xl font-bold text-pink-600">
+            Alison SPA
+          </a>
+          <div className="space-x-4">
+            <a href="#services" className="text-gray-600 hover:text-pink-600">
+              Servicios
+            </a>
+            <a href="#contact" className="text-gray-600 hover:text-pink-600">
+              Contacto
+            </a>
+          </div>
+        </nav>
+      </header>
+  );
 }
+

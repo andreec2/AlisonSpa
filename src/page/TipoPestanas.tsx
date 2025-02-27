@@ -1,4 +1,4 @@
-import React from "react";
+
 import "../Styles/base.css";
 
 export default function TipoPestanas() {

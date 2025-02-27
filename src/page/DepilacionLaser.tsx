@@ -1,4 +1,4 @@
-import React from "react";
+
 import "../Styles/base.css";
 //import LaserImage from "../images/DepilacionLaser.jpg";
 
