@@ -23,7 +23,7 @@ const services = [
   {
     title: "Depilacion cera",
     description: "Remueve vello de forma efectiva y duradera.",
-    link: "/services/depilacio-cera",
+    link: "/services/depilacion-cera",
   },
 
   {

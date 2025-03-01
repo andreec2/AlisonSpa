@@ -2,7 +2,7 @@
 import "../Styles/base.css";
 
 export default function Peinados() {
-    const PeinadosI = import.meta.env.BASE_URL + "../images/Peinados.jpg";
+    const PeinadosI = import.meta.env.BASE_URL + "/images/Peinados.jpg";
     return (
         <div className="container">
             <h1 className="title">Peinados Profesionales</h1>

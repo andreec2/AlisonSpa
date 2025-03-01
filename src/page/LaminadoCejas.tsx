@@ -2,7 +2,7 @@
 import "../Styles/base.css";
 
 export default function LaminadoCejas() {
-    const LaminadoCejasI = import.meta.env.BASE_URL + "../images/" + "LaminadoCejas.jpg";
+    const LaminadoCejasI = import.meta.env.BASE_URL + "/images/" + "LaminadoCejas.jpg";
     return (
         <div className="container">
             <h1 className="title">Laminado de Cejas</h1>

@@ -3,7 +3,9 @@ import "../Styles/base.css";
 
 export default function DepilacionPigmentacion() {
 
-    const DepilacionPigmentacionI = import.meta.env.BASE_URL + "../images/PigmentacionCejas.jpg";
+    const DepilacionPigmentacionI = import.meta.env.BASE_URL + "images/PigmentacionCejas.jpg";
+
+
     return (
         <div className="container">
             <h1 className="title">Depilación Láser y Tratamiento de Pigmentación</h1>

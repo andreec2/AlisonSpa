@@ -2,7 +2,7 @@
 import "../Styles/base.css";
 
 export default function TratamientoAcne() {
-    const TratamientoAcneI = import.meta.env.BASE_URL + "../images/TratamientoAcne.jpg";
+    const TratamientoAcneI = import.meta.env.BASE_URL + "/images/TratamientoAcne.jpg";
     return (
         <div className="container">
             <h1 className="title">Tratamiento para el Acné</h1>

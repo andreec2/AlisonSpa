@@ -2,7 +2,7 @@
 import "../Styles/base.css";
 
 export default function DepilacionCera() {
-    const DepilacionCeraI = import.meta.env.BASE_URL + "../images/DepilacionCera.jpg";
+    const DepilacionCeraI = import.meta.env.BASE_URL + "/images/DepilacionCera.jpg";
     return (
         <div className="container">
             <h1 className="title">Depilación con Cera</h1>

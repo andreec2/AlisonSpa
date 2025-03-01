@@ -1,26 +1,33 @@
-import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
-  useEffect(() => {
-    window.location.hash = "#services";
-  }, []);
+  // Elimina el useEffect que cambiaba el hash
+
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
       <header className="bg-white shadow-sm">
         <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <a href="/" className="text-2xl font-bold text-pink-600">
+          <Link to="/" className="text-2xl font-bold text-pink-600">
             Alison SPA
-          </a>
+          </Link>
           <div className="space-x-4">
-            <a href="/" className="text-gray-600 hover:text-pink-600">
+            <Link to="/" className="text-gray-600 hover:text-pink-600">
               Servicios
-            </a>
-            <a href="#contact" className="text-gray-600 hover:text-pink-600">
+            </Link>
+            <button
+                onClick={() => scrollToSection('contact')}
+                className="text-gray-600 hover:text-pink-600"
+            >
               Contacto
-            </a>
+            </button>
           </div>
         </nav>
       </header>
   );
 }
-

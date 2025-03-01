@@ -2,7 +2,7 @@
 import "../Styles/base.css";
 
 export default function TipoPestanas() {
-    const TipoPestanasI = import.meta.env.BASE_URL + "../images/TodoPestañas.jpg";
+    const TipoPestanasI = import.meta.env.BASE_URL + "/images/TodoPestañas.jpg";
     return (
         <div className="container">
             <h1 className="title">Extensión y Lifting de Pestañas</h1>

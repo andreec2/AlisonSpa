@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import "../Styles/base.css";
 
 export default function LimpiezaFacial() {
-    const LimpiezaFacialI = import.meta.env.BASE_URL + "../images/LimpiezaFacial.png";
+    const LimpiezaFacialI = import.meta.env.BASE_URL + "/images/LimpiezaFacial.png";
     return (
         <div className="container">
             <h1 className="title">Limpieza Facial Profunda</h1>

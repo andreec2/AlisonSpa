@@ -4,7 +4,7 @@ import "../Styles/base.css";
 
 export default function DepilacionLaser() {
 
-  const LaserImage = import.meta.env.BASE_URL + "../images/DepilacionLaser.jpg";
+  const LaserImage = import.meta.env.BASE_URL + "/images/DepilacionLaser.jpg";
 
   return (
     <div className="container">

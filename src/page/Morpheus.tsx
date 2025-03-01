@@ -2,7 +2,7 @@ import "../Styles/base.css";
 
 export default function Morpheus8() {
 
-    const Morpheus1 = import.meta.env.BASE_URL + "../images/DepilacionLaser.jpg";
+    const Morpheus1 = import.meta.env.BASE_URL + "/images/DepilacionLaser.jpg";
     return (
         <div className="container">
             <h1 className="title">Morpheus8 - Rejuvenecimiento Facial y Corporal</h1>

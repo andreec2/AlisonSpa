@@ -2,7 +2,7 @@
 import "../Styles/base.css";
 
 export default function MaquillajeProfesional() {
-    const MaquillajeProfesionalI = import.meta.env.BASE_URL + "../images/MaquillajeProfesional.jpg";
+    const MaquillajeProfesionalI = import.meta.env.BASE_URL + "/images/MaquillajeProfesional.jpg";
     return (
         <div className="container">
             <h1 className="title">Maquillaje Profesional</h1>

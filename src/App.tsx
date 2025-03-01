@@ -29,7 +29,7 @@ export default function App() {
             <Route path="/services/morpheus" element={<Morpheus8 />} />
             <Route path="/services/limpieza-facial-profunda" element={<LimpiezaFacial />} />
             <Route path="/services/tratamiento-para-acne" element={<TratamientoAcne />} />
-            <Route path="/services/depilacio-cera" element={<DepilacionCera />} />
+            <Route path="/services/depilacion-cera" element={<DepilacionCera />} />
             <Route path="/services/pigmentación-de-cejas" element={<DepilacionPigmentación />} />
             <Route path="/services/laminado-cejas" element={<LaminadoCejas />} />
             <Route path="/services/blanqueamiento-oscuras" element={<Blanqueamiento />} />

@@ -2,7 +2,7 @@ import "../Styles/base.css";
 
 export default function Blanueamiento() {
 
-    const Blaqueamiento = import.meta.env.BASE_URL + "../images/BlaqueamientoZonas.jpg";
+    const Blaqueamiento = import.meta.env.BASE_URL + "/images/BlaqueamientoZonas.jpg";
     return (
         <div className="container">
             <h1 className="title">Blanqueamiento de Zonas Oscuras</h1>
