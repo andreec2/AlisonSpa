@@ -3,7 +3,7 @@ import Header from './page/Header';
 import Hero from './page/Hero';
 import Services from './page/Services';
 import Footer from './page/Footer';
-import Morpheus8 from './page/Morpheus8'; // Importa el componente
+import Morpheus8 from './page/Morpheus'; // Importa el componente
 import DepilacionLaser from "./page/DepilacionLaser";
 import LimpiezaFacial from "@/page/LimpiezaFacial.tsx";
 import TratamientoAcne from "./page/TratamientoAcne.tsx";
@@ -26,7 +26,7 @@ export default function App() {
             <Hero />
             <Services />
           </>} />
-            <Route path="/services/morpheus8" element={<Morpheus8 />} />
+            <Route path="/services/morpheus" element={<Morpheus8 />} />
             <Route path="/services/limpieza-facial-profunda" element={<LimpiezaFacial />} />
             <Route path="/services/tratamiento-para-acne" element={<TratamientoAcne />} />
             <Route path="/services/depilacio-cera" element={<DepilacionCera />} />

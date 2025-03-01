@@ -5,7 +5,7 @@ const services = [
   {
     title: "Morpheus8 ",
     description: "Rejuvenecimiento Facial y Corporal.",
-    link: "/services/morpheus8",
+    link: "/services/morpheus",
   },
 
   {

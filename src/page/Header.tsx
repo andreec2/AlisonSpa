@@ -12,7 +12,7 @@ export default function Header() {
             Alison SPA
           </a>
           <div className="space-x-4">
-            <a href="#services" className="text-gray-600 hover:text-pink-600">
+            <a href="/" className="text-gray-600 hover:text-pink-600">
               Servicios
             </a>
             <a href="#contact" className="text-gray-600 hover:text-pink-600">
