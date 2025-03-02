@@ -21,9 +21,6 @@ export default function MaquillajeProfesional() {
                 </p>
 
                 {/* Video informativo */}
-                <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TUjU7KEhW6o" title="Maquillaje Profesional"></iframe>
-                </div>
 
                 {/* Beneficios */}
                 <h2 className="subtitle">Beneficios:</h2>

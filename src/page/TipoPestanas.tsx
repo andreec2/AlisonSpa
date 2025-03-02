@@ -22,7 +22,11 @@ export default function TipoPestanas() {
 
                 {/* Video informativo */}
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/example" title="Extensión y Lifting de Pestañas"></iframe>
+                    <iframe width="560" height="315"
+                            src="https://www.youtube-nocookie.com/embed/zxPuIzmh50U?si=YrXhtoOR3yEmkKau&amp;controls=0"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
 
                 {/* Beneficios */}

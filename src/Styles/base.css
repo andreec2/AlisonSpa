@@ -41,7 +41,9 @@
   
   .video-container {
     position: relative;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     padding-bottom: 56.25%;
     height: 0;
     margin-top: 20px;

@@ -8,7 +8,7 @@ export default function DepilacionPigmentacion() {
 
     return (
         <div className="container">
-            <h1 className="title">Depilación Láser y Tratamiento de Pigmentación</h1>
+            <h1 className="title">Depilación y Pigmentación de cejas </h1>
 
             <div className="content-box">
                 {/* Imagen */}
@@ -18,14 +18,17 @@ export default function DepilacionPigmentacion() {
 
                 {/* Descripción */}
                 <p className="description">
-                    La depilación láser es una técnica avanzada que elimina el vello no deseado de forma duradera.
-                    Además, el tratamiento para la pigmentación ayuda a reducir manchas oscuras y mejorar el tono de la piel,
-                    logrando una apariencia uniforme y saludable.
+                    La depilación y pigmentación de cejas es un tratamiento estético que combina la eliminación del vello no
+                    deseado con la aplicación de pigmento semipermanente para definir, dar forma y mejorar la apariencia de las cejas. Se utiliza para lograr un diseño más armonioso y natural, resaltando la expresión facial.
                 </p>
 
                 {/* Video informativo */}
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9Uqxxrx36wA" title="Depilación Láser y Pigmentación"></iframe>
+                    <iframe width="560" height="315"
+                            src="https://www.youtube-nocookie.com/embed/t9r6b7_D8Zs?si=A0JjFrS5Xw5oF8G9&amp;controls=0"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
 
                 {/* Beneficios */}

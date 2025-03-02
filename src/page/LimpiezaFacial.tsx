@@ -25,12 +25,11 @@ export default function LimpiezaFacial() {
 
                 {/* Video */}
                 <div className="video-container">
-                    <iframe
-                        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                        title="Limpieza Facial Profunda"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowFullScreen
-                    ></iframe>
+                    <iframe width="560" height="315"
+                            src="https://www.youtube-nocookie.com/embed/z-Jf0evsLsE?si=pEGE9NBmt-ZL1tty&amp;controls=0"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
 
                 {/* Beneficios */}

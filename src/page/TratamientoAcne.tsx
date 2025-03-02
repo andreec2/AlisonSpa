@@ -10,7 +10,7 @@ export default function TratamientoAcne() {
             <div className="content-box">
                 {/* Imagen */}
                 <div className="image-container">
-                    <img src={TratamientoAcneI} alt="Tratamiento para el Acné" className="image" />
+                    <img src={TratamientoAcneI} alt="Tratamiento para el Acné" className="image"/>
                 </div>
 
                 {/* Descripción */}
@@ -19,12 +19,13 @@ export default function TratamientoAcne() {
                     de la piel. Se utilizan técnicas avanzadas como peelings químicos, luz pulsada y limpieza profunda
                     para controlar la producción de grasa y prevenir brotes futuros.
                 </p>
-
-                {/* Video informativo */}
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/example" title="Tratamiento para el Acné"></iframe>
+                {/* Video informativo */}
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yNrHpfuVTVA?si=zXuaYi8hncugqvSU"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
-
                 {/* Beneficios */}
                 <h2 className="subtitle">Beneficios:</h2>
                 <ul className="list">

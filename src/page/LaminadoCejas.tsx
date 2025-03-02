@@ -22,7 +22,7 @@ export default function LaminadoCejas() {
 
                 {/* Video informativo */}
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1tqjD_u5ll8" title="Laminado de Cejas"></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5OJqdqso6pY?si=dVGL9AktsH4kBbp9&amp;controls=0&amp;start=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
                 {/* Beneficios */}

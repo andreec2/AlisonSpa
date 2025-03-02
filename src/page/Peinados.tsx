@@ -21,9 +21,6 @@ export default function Peinados() {
                 </p>
 
                 {/* Video informativo */}
-                <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3CClOsC26Lw" title="Peinados Profesionales"></iframe>
-                </div>
 
                 {/* Beneficios */}
                 <h2 className="subtitle">Beneficios:</h2>

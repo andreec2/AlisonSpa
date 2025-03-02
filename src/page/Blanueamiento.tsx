@@ -22,7 +22,11 @@ export default function Blanueamiento() {
 
                 {/* Video informativo */}
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tUWxRBiCtsg" title="Blanqueamiento de Zonas Oscuras"></iframe>
+                    <iframe width="560" height="315"
+                            src="https://www.youtube-nocookie.com/embed/fsjLcsrZfY4?si=fUbc6aXF1hi82DQh&amp;controls=0"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
 
                 {/* Beneficios */}
