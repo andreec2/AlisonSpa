@@ -1,5 +1,6 @@
 
 import "../Styles/base.css";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function DepilacionCera() {
     const DepilacionCeraI = import.meta.env.BASE_URL + "/images/DepilacionCera.jpg";
@@ -54,6 +55,9 @@ export default function DepilacionCera() {
                     La sesión dura entre 20 y 60 minutos, dependiendo del área a tratar.
                     Los precios varían desde $10 hasta $50 por zona.
                 </p>
+
+                {/* Botón de Reserva */}
+                <WhatsAppButton message="Buenas tardes, me interesa el tratamiento de Depilación con Cera." />
             </div>
         </div>
     );

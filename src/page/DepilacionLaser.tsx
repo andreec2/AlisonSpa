@@ -1,5 +1,6 @@
 
 import "../Styles/base.css";
+import WhatsAppButton from "./WhatsAppButton";
 //import LaserImage from "../images/DepilacionLaser.jpg";
 
 export default function DepilacionLaser() {
@@ -53,6 +54,9 @@ export default function DepilacionLaser() {
           Las sesiones duran entre **15 a 60 minutos**, dependiendo de la zona a tratar.  
           El precio varía según la cantidad de sesiones recomendadas.
         </p>
+
+        {/* Botón de Reserva */}
+        <WhatsAppButton message="Buenas tardes, me interesa el tratamiento de Depilación Láser." />
       </div>
     </div>
   );

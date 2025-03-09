@@ -1,5 +1,6 @@
 
 import "../Styles/base.css";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function DepilacionPigmentacion() {
 
@@ -56,6 +57,9 @@ export default function DepilacionPigmentacion() {
                     Se recomienda un tratamiento de 6 a 8 sesiones para obtener mejores resultados.
                     Los precios varían entre $30 y $120 por sesión.
                 </p>
+
+                {/* Botón de Reserva */}
+                <WhatsAppButton message="Buenas tardes, me interesa el tratamiento de Depilación y Pigmentación de cejas." />
             </div>
         </div>
     );

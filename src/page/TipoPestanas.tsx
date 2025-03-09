@@ -1,5 +1,6 @@
 
 import "../Styles/base.css";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function TipoPestanas() {
     const TipoPestanasI = import.meta.env.BASE_URL + "/images/TodoPestañas.jpg";
@@ -53,6 +54,9 @@ export default function TipoPestanas() {
                     La aplicación dura entre 1 y 2 horas, dependiendo del tipo de pestañas elegidas.
                     Los precios van desde $50 hasta $150, según el tratamiento y el volumen deseado.
                 </p>
+
+                {/* Botón de Reserva */}
+                <WhatsAppButton message="Buenas tardes, me interesan el tratamiento de Extensión y Lifting de Pestañas." />
             </div>
         </div>
     );

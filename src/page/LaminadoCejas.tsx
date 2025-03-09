@@ -1,5 +1,6 @@
 
 import "../Styles/base.css";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function LaminadoCejas() {
     const LaminadoCejasI = import.meta.env.BASE_URL + "/images/" + "LaminadoCejas.jpg";
@@ -22,7 +23,7 @@ export default function LaminadoCejas() {
 
                 {/* Video informativo */}
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5OJqdqso6pY?si=dVGL9AktsH4kBbp9&amp;controls=0&amp;start=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5OJqdqso6pY?si=dVGL9AktsH4kBbp9&amp;controls=0&amp;start=18" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                 </div>
 
                 {/* Beneficios */}
@@ -49,6 +50,9 @@ export default function LaminadoCejas() {
                     El procedimiento dura aproximadamente 45 a 60 minutos y sus efectos pueden durar entre 4 y 6 semanas.
                     El costo del tratamiento varía entre $30 y $60, dependiendo del centro estético.
                 </p>
+
+                 {/* Botón de Reserva */}
+                 <WhatsAppButton message="Buenas tardes, me interesa el tratamiento de Laminado de Cejas." />
             </div>
         </div>
     );

@@ -1,4 +1,5 @@
 import "../Styles/base.css";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function Morpheus8() {
 
@@ -39,7 +40,8 @@ export default function Morpheus8() {
                     Sesión de 45-60 minutos - Precio según evaluación
                 </p>
 
-                {/* <Button className="w-full">Agendar Consulta</Button> */}
+                {/* Botón de Reserva */}
+                <WhatsAppButton message="Buenas tardes, me interesa el tratamiento de Morpheus8." />
             </div>
         </div>
     );

@@ -1,4 +1,5 @@
 import "../Styles/base.css";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function Blanueamiento() {
 
@@ -52,6 +53,9 @@ export default function Blanueamiento() {
                 <p className="description">
                     Sesiones de 45-60 minutos con un costo desde $70 por área tratada.
                 </p>
+
+                {/* Botón de Reserva */}
+                <WhatsAppButton message="Buenas tardes, me interesa el tratamiento de Blanqueamiento de Zonas Oscuras." />
             </div>
         </div>
     );

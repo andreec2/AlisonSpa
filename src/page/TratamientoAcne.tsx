@@ -1,5 +1,6 @@
 
 import "../Styles/base.css";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function TratamientoAcne() {
     const TratamientoAcneI = import.meta.env.BASE_URL + "/images/TratamientoAcne.jpg";
@@ -50,6 +51,10 @@ export default function TratamientoAcne() {
                     La duración del tratamiento varía según el tipo de piel y la severidad del acné,
                     pero suele requerir entre 4 y 8 sesiones. Los precios oscilan entre $50 y $200 por sesión.
                 </p>
+
+                {/* Botón de Reserva */}
+                <WhatsAppButton message="Buenas tardes, me interesan el tratamiento para el Acné." />
+
             </div>
         </div>
     );

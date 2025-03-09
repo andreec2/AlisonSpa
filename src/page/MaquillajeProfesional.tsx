@@ -1,5 +1,6 @@
 
 import "../Styles/base.css";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function MaquillajeProfesional() {
     const MaquillajeProfesionalI = import.meta.env.BASE_URL + "/images/MaquillajeProfesional.jpg";
@@ -46,6 +47,9 @@ export default function MaquillajeProfesional() {
                     La sesión de maquillaje puede durar entre 45 minutos y 1 hora, dependiendo de la complejidad del look.
                     Los precios varían entre $50 y $150, dependiendo de la técnica utilizada y la experiencia del maquillador.
                 </p>
+
+                {/* Botón de Reserva */}
+                <WhatsAppButton message="Buenas tardes, me interesa el maquillaje Profesional." />
             </div>
         </div>
     );

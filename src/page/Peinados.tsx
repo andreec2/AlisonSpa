@@ -1,5 +1,6 @@
 
 import "../Styles/base.css";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function Peinados() {
     const PeinadosI = import.meta.env.BASE_URL + "/images/Peinados.jpg";
@@ -46,6 +47,9 @@ export default function Peinados() {
                     La duración del servicio varía entre 30 minutos y 1 hora, dependiendo del tipo de peinado.
                     Los precios oscilan entre $40 y $120, dependiendo del estilo y la complejidad del peinado.
                 </p>
+
+                {/* Botón de Reserva */}
+                <WhatsAppButton message="Buenas tardes, me interesan un peinado profesional." />
             </div>
         </div>
     );

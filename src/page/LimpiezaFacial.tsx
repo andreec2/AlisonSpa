@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button";
 import "../Styles/base.css";
+import WhatsAppButton from "./WhatsAppButton";
 
 export default function LimpiezaFacial() {
     const LimpiezaFacialI = import.meta.env.BASE_URL + "/images/LimpiezaFacial.png";
@@ -58,7 +58,7 @@ export default function LimpiezaFacial() {
                 <p className="description">Sesión de 60-90 minutos - $80</p>
 
                 {/* Botón de Reserva */}
-                <Button className="btn">Reservar Tratamiento</Button>
+                <WhatsAppButton message="Buenas tardes, me interesa el tratamiento de limpieza facial." />
             </div>
         </div>
     );
