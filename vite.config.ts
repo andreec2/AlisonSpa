@@ -5,10 +5,12 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/AlisonSpa/', // Esto es crucial para GitHub Pages
+  base: '/AlisonSpa/', // GitHub Pages necesita esto
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-})
+ 
+});
+
