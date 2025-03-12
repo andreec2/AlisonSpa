@@ -5,7 +5,7 @@ import WhatsAppButton from "./WhatsAppButton";
 export default function LaminadoCejas() {
     const LaminadoCejasI = import.meta.env.BASE_URL + "/images/" + "LaminadoCejas.jpg";
     return (
-        <div className="container">
+        <div className=".container">
             <h1 className="title">Laminado de Cejas</h1>
 
             <div className="content-box">
