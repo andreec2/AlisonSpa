@@ -55,7 +55,7 @@ export default function LimpiezaFacial() {
 
                 {/* Duración y Precio */}
                 <h2 className="subtitle">Duración y Precio:</h2>
-                <p className="description">Sesión de 60-90 minutos - $80</p>
+                <p className="description">Sesión de 60-90 minutos - $80 en adelante.</p>
 
                 {/* Botón de Reserva */}
                 <WhatsAppButton message="Buenas tardes, me interesa el tratamiento de limpieza facial." />

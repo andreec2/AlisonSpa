@@ -8,13 +8,13 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <h3 className="footer-title">Contacto</h3>
-            <p>Teléfono: +1 234 567 8900</p>
-            <p>Email: info@bellaspa.com</p>
+            <p>Teléfono: +1 561 890 5502</p>
+            <p>Email: </p>
           </div>
           <div>
             <h3 className="footer-title">Dirección</h3>
-            <p>123 Calle Principal</p>
-            <p>Ciudad, Estado 12345</p>
+            <p>6656 Sterling Road, </p>
+            <p>HollyWood, Florida 33024</p>
           </div>
           <div>
             <h3 className="footer-title">Síguenos</h3>

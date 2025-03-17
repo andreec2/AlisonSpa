@@ -16,9 +16,8 @@ export default function TratamientoAcne() {
 
                 {/* Descripción */}
                 <p className="description">
-                    El tratamiento para el acné ayuda a reducir la inflamación, eliminar impurezas y mejorar la textura
-                    de la piel. Se utilizan técnicas avanzadas como peelings químicos, luz pulsada y limpieza profunda
-                    para controlar la producción de grasa y prevenir brotes futuros.
+                El tratamiento para el acné ayuda a reducir la inflamación, eliminar impurezas y mejorar la textura de la piel. Se utilizan técnicas avanzadas, como láser, 
+                peelings químicos, luz pulsada y limpieza profunda, para controlar la producción de grasa y prevenir brotes futuros.
                 </p>
                 <div className="video-container">
                 {/* Video informativo */}
@@ -48,8 +47,9 @@ export default function TratamientoAcne() {
                 {/* Duración y precio */}
                 <h2 className="subtitle">Duración y Precio:</h2>
                 <p className="description">
-                    La duración del tratamiento varía según el tipo de piel y la severidad del acné,
-                    pero suele requerir entre 4 y 8 sesiones. Los precios oscilan entre $50 y $200 por sesión.
+                    La duración del tratamiento varía según el tipo de piel y la severidad del acné, pero generalmente requiere entre 4 
+                    y 10 sesiones, realizadas una vez por semana. 
+                    El precio es de $50 por sesión o $380 por un paquete de 10 sesiones.
                 </p>
 
                 {/* Botón de Reserva */}

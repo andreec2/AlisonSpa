@@ -37,7 +37,7 @@ export default function Morpheus8() {
                 </ul>
                 <h2 className="subtitle">Duración y Precio:</h2>
                 <p className="description">
-                    Sesión de 45-60 minutos - Precio según evaluación
+                    Sesión de 60 a 90 minutos. El precio varía según la zona y el tamaño, entre 250 y 350.
                 </p>
 
                 {/* Botón de Reserva */}

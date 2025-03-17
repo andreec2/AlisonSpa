@@ -51,7 +51,7 @@ export default function Blanueamiento() {
                 {/* Duración y precio */}
                 <h2 className="subtitle">Duración y Precio:</h2>
                 <p className="description">
-                    Sesiones de 45-60 minutos con un costo desde $70 por área tratada.
+                    Sesiones de 30 minutos con un costo desde $40 por área tratada en adelante.
                 </p>
 
                 {/* Botón de Reserva */}
