@@ -67,6 +67,22 @@ const services = [
     description: "Técnicas modernas para una piel suave y sin vello.",
     link: "/services/depilacion-laser", 
   },
+  {
+    title: "Keratina", 
+    description: "Tratamiento avanzado para un cabello liso, fuerte y sin frizz.",
+    link: "/services/keratina", 
+  },
+  {
+    title: "Plasma Rico en Plaquetas", 
+    description: "Regeneración celular para rejuvenecer la piel y fortalecer el cabello.",
+    link: "/services/plasma-rico-en-plaquetas", 
+  },
+
+  {
+    title: "Eliminación de Venas", 
+    description: "Reduce venas varicosas y arañas vasculares.",
+    link: "/services/eliminacion-de-venas", 
+  },
 
 ];
 

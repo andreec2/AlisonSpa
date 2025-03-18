@@ -14,6 +14,9 @@ import Blanqueamiento from "./page/Blanueamiento.tsx";
 import MaquillajeProfesional from "./page/MaquillajeProfesional";
 import TipoPestanas from "./page/TipoPestanas.tsx";
 import Peinados from "./page/Peinados";
+import Keratina from "./page/Keratina.tsx";
+import PlasmaRicoEnPlaquetas from "./page/PlasmaRicoEnPlaquetas.tsx";
+import EliminacionDeVenas from "./page/EliminacionDeVenas.tsx";
 
 
 export default function App() {
@@ -37,6 +40,9 @@ export default function App() {
             <Route path="/services/pestañas-tipo" element={<TipoPestanas />} />
             <Route path="/services/peinados" element={<Peinados />} />
             <Route path="/services/depilacion-laser" element={<DepilacionLaser />} />
+            <Route path="/services/Keratina" element={<Keratina />} />
+            <Route path="/services/plasma-rico-en-plaquetas" element={<PlasmaRicoEnPlaquetas />} />
+            <Route path="/services/eliminacion-de-venas" element={<EliminacionDeVenas />} />
         </Routes>
       </main>
       <Footer />
