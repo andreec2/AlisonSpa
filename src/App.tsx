@@ -17,7 +17,8 @@ import Peinados from "./page/Peinados";
 import Keratina from "./page/Keratina.tsx";
 import PlasmaRicoEnPlaquetas from "./page/PlasmaRicoEnPlaquetas.tsx";
 import EliminacionDeVenas from "./page/EliminacionDeVenas.tsx";
-
+import EliminacionVerrugas from "./page/EliminacionVerrugas.tsx";
+import EliminacionHongos from "./page/EliminacionHongos.tsx";
 
 export default function App() {
   return (
@@ -43,6 +44,8 @@ export default function App() {
             <Route path="/services/Keratina" element={<Keratina />} />
             <Route path="/services/plasma-rico-en-plaquetas" element={<PlasmaRicoEnPlaquetas />} />
             <Route path="/services/eliminacion-de-venas" element={<EliminacionDeVenas />} />
+            <Route path="/services/eliminacion-de-verrugas" element={<EliminacionVerrugas />} />
+            <Route path="/services/eliminacion-de-hongos" element={<EliminacionHongos />} />
         </Routes>
       </main>
       <Footer />

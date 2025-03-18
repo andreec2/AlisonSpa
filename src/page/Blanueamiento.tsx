@@ -16,9 +16,9 @@ export default function Blanueamiento() {
 
                 {/* Descripción */}
                 <p className="description">
-                    El blanqueamiento de zonas oscuras es un tratamiento estético diseñado para aclarar áreas del cuerpo donde la piel ha
-                    desarrollado hiperpigmentación. Se utiliza en zonas como axilas, entrepierna, codos y rodillas,
-                    ofreciendo un tono más uniforme y luminoso sin dañar la piel.
+                    El blanqueamiento de zonas oscuras con láser es un tratamiento estético diseñado para aclarar áreas del cuerpo 
+                    con hiperpigmentación. Se aplica en zonas como axilas, entrepierna, codos y rodillas, proporcionando un tono más 
+                    uniforme y luminoso de forma segura y efectiva.
                 </p>
 
                 {/* Video informativo */}

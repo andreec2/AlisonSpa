@@ -15,6 +15,12 @@ const services = [
   },
 
   {
+    title: "Eliminación de Verrugas", 
+    description: "Remoción segura con cauterizador profesional.",
+    link: "/services/eliminacion-de-verrugas", 
+  },
+
+  {
     title: "Tratamiento para el acne ",
     description: "Reduce brotes y mejora la textura de la piel.",
     link: "/services/tratamiento-para-acne",
@@ -42,6 +48,12 @@ const services = [
     title: "Blanqueamiento de zonas oscuras",
     description: "Unifica el tono de la piel en áreas específicas.",
     link: "/services/blanqueamiento-oscuras",
+  },
+
+  {
+    title: "Eliminación de Hongos en las Uñas",
+    description: "Elimina infecciones y restaura la salud de tus uñas.",
+    link: "/services/eliminacion-de-hongos",
   },
 
   {

@@ -22,9 +22,8 @@ export default function Keratina() {
 
                 {/* Video informativo */}
                 <div className="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1c1OdhhqIQk?si=rDMW3KJRwO7VIqD3" 
-                    title="YouTube video player" allow="accelerometer; autoplay; 
-                    clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kxnLqLGSMMY?si=3ccDgZ81dP9zGW1Z" 
+                    title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                 </div>
 
                 {/* Beneficios */}
@@ -48,7 +47,7 @@ export default function Keratina() {
                 <h2 className="subtitle">Duración y Precio:</h2>
                 <p className="description">
                     La sesión dura entre 1 y 3 horas, dependiendo del tipo y largo del cabello.
-                    Los precios varían desde $50 hasta $150.
+                    Los precios varían desde $120 hasta $250.
                 </p>
 
                 {/* Botón de Reserva */}
