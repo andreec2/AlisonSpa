@@ -38,6 +38,32 @@ const services = [
     link: "/services/pigmentación-de-cejas",  
   },
 
+  //////////////////////////////////////
+  {
+    title: "Laser10Body ",
+    description: "Eliminacion de vello no deseado.",
+    link: "/services/laser10Body",
+  },
+
+  {
+    title: "Emsculpt ",
+    description: "tonifica los músculos y quema grasa simultáneamente.",
+    link: "/services/emsculpt",
+  },
+
+  {
+    title: "Masajes reductores ",
+    description: "Moldea tu cuerpo y reduce medidas.",
+    link: "/services/masajes-reductores",
+  },
+
+  {
+    title: "Masajes relajantes ",
+    description: "Relájate y alivia el estrés con un masaje terapéutico.",
+    link: "/services/masajes-relajantes",
+  },
+  //////////////////////////////////////
+
   {
     title: "Laminado de cejas",
     description: "Efecto de cejas peinadas y con mayor volumen.",

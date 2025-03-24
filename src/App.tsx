@@ -19,6 +19,11 @@ import PlasmaRicoEnPlaquetas from "./page/PlasmaRicoEnPlaquetas.tsx";
 import EliminacionDeVenas from "./page/EliminacionDeVenas.tsx";
 import EliminacionVerrugas from "./page/EliminacionVerrugas.tsx";
 import EliminacionHongos from "./page/EliminacionHongos.tsx";
+import Laser10Body from "./page/Laser10Body.tsx";
+import MasajesReductores from "./page/MasajesReductores.tsx";
+import MasajesRelajantes from "./page/MasajesRelajantes.tsx";
+import Emsculpt from "./page/Emsculpt.tsx";
+
 
 export default function App() {
   return (
@@ -46,6 +51,10 @@ export default function App() {
             <Route path="/services/eliminacion-de-venas" element={<EliminacionDeVenas />} />
             <Route path="/services/eliminacion-de-verrugas" element={<EliminacionVerrugas />} />
             <Route path="/services/eliminacion-de-hongos" element={<EliminacionHongos />} />
+            <Route path="//services/laser10Body" element={<Laser10Body />} />
+            <Route path="/services/emsculpt" element={<Emsculpt />} />
+            <Route path="/services/masajes-reductores" element={<MasajesReductores />} />
+            <Route path="/services/masajes-relajantes" element={<MasajesRelajantes />} />
         </Routes>
       </main>
       <Footer />
