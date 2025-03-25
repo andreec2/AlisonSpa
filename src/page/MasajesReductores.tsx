@@ -43,9 +43,10 @@ export default function MasajesReductores() {
                 <h2 className="subtitle">Duración y Precio:</h2>
                 <p className="description">
                     Cada sesión dura aproximadamente 45 minutos.  
-                    <strong>Precios:</strong>  
-                    - 1 sesión: $60  
-                    - 10 sesiones: $500  
+
+                    <strong> Precios:</strong>  
+                    - 1 sesión: $85 
+                    - 10 sesiones: $700  
                 </p>
 
                 {/* Botón de Reserva */}

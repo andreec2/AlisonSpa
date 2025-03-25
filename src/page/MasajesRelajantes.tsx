@@ -30,11 +30,10 @@ export default function MasajesRelajantes() {
                 {/* Sesiones y precios */}
                 <h2 className="subtitle">Duración y Precio:</h2>
                 <p className="description">
-                    Cada sesión tiene una duración de 50 minutos.
-                    <br />
-                    Precio: $50 por sesión.
-                    <br />
-                    Paquete de 10 sesiones: $400.
+                    Cada sesión dura aproximadamente 45 minutos.  
+                        <strong> Precios: </strong>  
+                        sesión: Desde $90 
+
                 </p>
 
                 {/* Botón de Reserva */}

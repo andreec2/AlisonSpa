@@ -15,9 +15,9 @@ export default function Laser10Body() {
 
                 {/* Descripción */}
                 <p className="description">
-                    El tratamiento Láser 10 Body es una solución innovadora para la eliminación del vello no deseado
-                    en diversas áreas del cuerpo. Gracias a su tecnología avanzada, permite obtener resultados duraderos,
-                    dejando la piel suave y sin irritaciones.
+                    El tratamiento Láser 10 Body es una tecnología avanzada diseñada para eliminar grasa localizada
+                    de manera efectiva y no invasiva. Ayuda a esculpir la figura reduciendo medidas y mejorando
+                    la apariencia de la piel.
                 </p>
 
                 {/* Video informativo */}
@@ -29,29 +29,29 @@ export default function Laser10Body() {
                 {/* Beneficios */}
                 <h2 className="subtitle">Beneficios:</h2>
                 <ul className="list">
-                    <li>Elimina el vello de manera eficaz y duradera.</li>
-                    <li>Minimiza la irritación y evita el crecimiento de vellos encarnados.</li>
-                    <li>Piel más suave y libre de imperfecciones.</li>
-                    <li>Sesiones rápidas y seguras para todo tipo de piel.</li>
+                    <li>Reduce grasa localizada de manera no invasiva.</li>
+                    <li>Mejora la firmeza y apariencia de la piel.</li>
+                    <li>Sesiones rápidas y sin tiempo de recuperación.</li>
+                    <li>Moldea la figura de forma efectiva.</li>
                 </ul>
 
                 {/* Aplicación */}
                 <h2 className="subtitle">¿Para quién es recomendado?</h2>
                 <ul className="list">
-                    <li>Personas que buscan una solución permanente para el vello no deseado.</li>
-                    <li>Ideal para cualquier zona del cuerpo.</li>
-                    <li>Quienes desean una piel más tersa sin necesidad de rasurar o depilar con cera.</li>
+                    <li>Personas que buscan reducir grasa localizada sin cirugía.</li>
+                    <li>Ideal para abdomen, brazos, muslos y espalda.</li>
+                    <li>Quienes desean mejorar su silueta sin procedimientos invasivos.</li>
                 </ul>
 
                 {/* Duración y precio */}
                 <h2 className="subtitle">Duración y Precio:</h2>
                 <p className="description">
-                    El tratamiento consta de 10 sesiones para lograr una eliminación efectiva del vello.
+                    El tratamiento consta de 10 sesiones para obtener resultados óptimos.
                     <br />
                     <strong>Precio:</strong>
                     <ul className="list">
-                        <li>10 sesiones → $900</li>
-                        <li>1 sesión → $120</li>
+                        <li>10 sesiones → $400</li>
+                        <li>1 sesión → $50</li>
                     </ul>
                 </p>
 
